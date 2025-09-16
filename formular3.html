@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontaktformular3</title>
+</head> 
+<body>
+        <!--Block Name-->
+    <form action="kontakt.php" method="post">
+        <label for="name">Name:</label>
+        <input id="name" type="text" required>
+
+        <br>
+
+        <!--Block Email/Tel-->
+        <input id="email" type="radio" name="kontakt" >
+        <label for="email" >Email:</label>
+
+        <br>
+
+        <input id="tel" type="radio" name="kontakt" required>
+        <label for="tel">Tel:</label>
+
+        <br>
+
+        <label for="adresse">Deine Email Adresse:</label>
+        <input id="adresse" type="email" required>
+
+        <br>
+
+        <label for="telefon">Deine Telefonnummer:</label>
+        <input id="telefon" type="tel" required>
+
+
+        <br>
+
+        <!--Block Nachrichten-->
+        <label for="nachrichten">Nachrichten:</label>
+        <textarea id="nachrichten"></textarea>
+
+        <br>
+
+        <!--Checkbox Newsletter-->
+        <label for="newsletter">Newsletter</label>
+        <input id="newsletter" type="checkbox">
+
+        <br>
+
+        <button type="submit">Absenden</button>
+    </form>
+</body>
+</html>
